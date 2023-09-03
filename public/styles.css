@@ -1,0 +1,92 @@
+body {
+    background-color: #016A70;
+    font-family: 'Caveat', cursive;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+h2 {
+    color: #FFFFDD;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+h3 {
+    color: #016A70;
+    font-size: 25px;
+
+}
+
+
+form {
+    background-color: #A2C579;
+    width: 75vw;
+    height: 70vh;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+label {
+    color: #FFFFDD;
+    font-size: 20px;
+    margin-bottom: 3px;
+    font-size: 23px;
+}
+
+input {
+    outline: none;
+    border: none;
+    height: 25px;
+    border-radius: 10px;
+    width: 400px;
+    font-family: inherit;
+    color: #A2C579;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+button {
+    background-color: #D2DE32;
+    color: #016A70;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 25px;
+    border: none;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    cursor: pointer;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    form {
+        margin-bottom: 20px;
+    }
+   input {
+    width: 200px
+   }   
+   button {
+    margin-top: 20px;
+   }
+}
