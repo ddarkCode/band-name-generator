@@ -12,17 +12,17 @@
 <body>
     <section>
         <h2>Band Name Generator</h2>
-        <form action="/band/name" method="post">
+        <form action="/band/name" method="POST">
             <h3>Please Provide The Name Of The City You Grew In And The Name Of Your Pet</h3>
             <div>
                 <label for="cityName">City Name</label>
-            <input type="text" id="cityName" name="bandName" required>
+            <input type="text" id="cityName" name="cityName" required>
             </div>
             <div>
                 <label for="petName">Pet Name</label>
             <input type="text" id="petName" name="petName" required>
             </div>
-            <button type="button">Get Band Name</button>
+            <button type="submit">Get Band Name</button>
         </form>
     </section>
 </body>
